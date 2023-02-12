@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.h1-div {
+  height: 100px;
+  text-align: center;
+}
+.head {
+  text-align: center;
+  height: 400px;
+}
+button {
+  width: 90px;
+  height: 110px;
+  margin: 40px 40px;
+  border: none;
+  border-radius: 5px;
+  color: wheat;
+}
+.first {
+  background-image: linear-gradient(grey, rgb(14, 221, 221));
+}
+.second {
+  background-image: linear-gradient(red, rgb(221, 245, 11));
+}
+.third {
+  background-image: linear-gradient(rgb(4, 223, 40), rgb(245, 105, 11));
+}
+.fourth {
+  background-image: linear-gradient(rgb(197, 4, 197), rgb(125, 110, 255));
+}
+#static {
+  cursor: pointer;
+}
+#static:active {
+  scale: 2;
+  transform: rotate(360deg);
+  font-size: 10px;
+  transition: ease-in-out 2s;
+}
+.first:active {
+  background-image: linear-gradient(rgb(14, 221, 221), grey);
+  color: rgb(105, 105, 105);
+}
+
+.second:active {
+  background-image: linear-gradient(rgb(221, 245, 11), red);
+  color: rgb(139, 59, 29);
+}
+.third:active {
+  background-image: linear-gradient(rgb(245, 105, 11), rgb(4, 223, 40));
+  color: rgb(33, 71, 35);
+  font-size: 10px;
+}
+.fourth:active {
+  background-image: linear-gradient(rgb(125, 110, 255), rgb(197, 4, 197));
+  color: rgb(92, 12, 75);
+  font-size: 10px;
+}
